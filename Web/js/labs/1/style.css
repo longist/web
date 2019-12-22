@@ -1,0 +1,52 @@
+form {
+	margin: 30px 0;
+}
+button {
+	border: none;
+	border-radius: 10px;
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: left 15px center;
+	padding: 9px 30px 9px 45px;
+}
+input.submit:hover, button:hover {
+	background-color: #aaaaaa;
+}
+
+button.show {
+	background-image: url(images/name.png);
+}
+
+button.id {
+	background-image: url(images/id.png);
+	height: 25px;
+}
+
+button.reset {
+	background-image: url(images/reset.png);
+}
+
+button.num {
+	background-image: url(images/number.png);
+}
+
+input.submit {
+	background-image: url(https://img.icons8.com/nolan/64/000000/upload-to-cloud.png);
+}
+
+input.submit {
+	border: none;
+	border-radius: 10px;
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: left 15px center;
+	padding: 9px 30px 9px 45px;
+}
+
+input, button {
+	margin: 15px;
+}
+
+td {
+	border: solid 1px;
+}

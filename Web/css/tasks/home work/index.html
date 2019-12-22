@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stylish page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <form>
+      <div>Sign up, please:</div><br>
+      <div><input class="field" id="login" type="text" name="login" placeholder="Enter your name"></div>
+      <div><input class="field" id="pass" type="password" name="pass" placeholder="Enter password"></div>
+      <div><input class="field" type="submit" name="sing_in" value="Sign up"></div>
+    </form>
+    <form>
+      <div>
+        <div id="img"><img src="stylish.png" class="picture"></div>
+        <div id="select">
+          <select class="field">
+            <option value="" disabled selected>Choose your country</option>
+            <option value="RU" class="bolded">Russian Federation</option>
+            <option class="red_back" value="Bangladesh">Bangladesh</option>
+            <option class="red_back" value="Samoa">Samoa</option>
+            <option class="red_back" value="Canada">Canada</option>
+          </select>
+          <div>
+            <input type="checkbox" id="i_am_resident">
+            <label for="i_am_resident">I am resident of chosen country</label>
+          </div>
+        </div>
+      </div>
+      <div id="button"><input class="field" type="submit" name="country_choice" value="Submit"></div>
+      
+    </form>
+  </body>
+</html>
+
+
+

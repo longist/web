@@ -1,0 +1,119 @@
+* {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+body
+{
+  margin: 0px;
+  color: white;
+  font-size: 16px;
+  font-family: arial;
+}
+
+div{
+  text-align: center;
+}
+
+#header, #footer{
+  width: 100%;
+  height: 100px;
+  background-color: #A6B5FF;
+}
+
+#header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer{
+  top: 870px;
+  height: 130px;
+  position: absolute;
+}
+
+#main{
+  width: 100%;
+  height: 770px;
+  background: url("images/pattern.jpg") repeat;
+  position: absolute;
+}
+
+#block0{
+  top: 20%;
+  left: 12.5%;
+  width: 210px;
+  height: 210px;
+  background-color: #B5FFA6;
+  position: absolute;
+}
+
+#block1{
+  top: 30%;
+  left: 25%;
+  width: 210px;
+  height: 210px;
+  background-color: #A6FFF0;
+  position: absolute;
+}
+
+#block0:hover{
+  z-index: 100;
+}
+
+#content{
+  top: 0px;
+  bottom: 0px;
+  left: 25%;
+  right: 25%;
+  background-color: #A6E2FF;
+  position: absolute;
+}
+
+h1{
+  margin: 1em 0;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.6em;
+  text-transform: uppercase;
+}
+
+p{
+  margin: 1em 0;
+  line-height: 1.2em;
+}
+
+#header ul{
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  list-style-type: none;
+}
+
+#header li{
+  margin: 0px;
+  padding: 41px 30px; 
+  display: inline-block;
+}
+
+#header li:hover{
+  background-color: #C7D1FF;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.text{
+  text-align: left;
+  font-style: italic;
+  margin: 1em;
+}
+
+.text:first-letter{
+  font-size: 180%;
+  font-weight: bold;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jquery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <p id="firstPar" class="stylish">First paragraph</p>
+    <p id="secondPar" class="too_stylish">Second paragraph</p>
+    <a href="#firstPar" class="stylish">Go to first paragraph</a></br>
+    <a href="#secondPar" class="too_stylish">Go to second paragraph</a></br>
+    <a href="http://htmlbook.ru/" class="too_stylish">Htmlbook</a></br>
+     <form>
+        <input type="text" name="width" id="width" placeholder="First field"><br>
+        <input type="text" name="height" id="height" placeholder="Second field"><br>
+        <button type="button" id="tableButton">Do something</button>
+      </form>
+    <button onclick="reloadPage()">Reload</button>
+    <button onclick="getJSON()">Show JSON</button>
+    <table>
+      <tr>
+        <th>Text</th>
+        <th>Effect</th>
+      </tr>
+      <tr>
+        <td><p id="text0">Some text</p></td>
+        <td><button type="button" onclick="toggle()">Run</button></td>
+      </tr>
+      <tr>
+        <td><a id="text1">Some text</a></td>
+        <td><button type="button" onclick="fade()">Run</button></td>
+      </tr>
+      <tr>
+        <td><h3 id="text2">Some text</h3></td>
+        <td><button type="button" onclick="slide()">Run</button></td>
+      </tr>
+      <tr>
+        <td><input type="text" id="text3" value="Some text"></p></td>
+        <td><button type="button" onclick="animation0()">Run</button></td>
+      </tr>
+      <tr>
+        <td><input type="file" id="text4" value="Some text"></p></td>
+        <td><button type="button" onclick="animation1()">Run</button></td>
+      </tr>
+      <tr>
+        <td><input type="password" id="text5" value="Some text"></p></td>
+        <td><button type="button" onclick="animation2()">Run</button></td>
+      </tr>
+    </table>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

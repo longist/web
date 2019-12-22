@@ -1,0 +1,125 @@
+* {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+body
+{
+  font-family: arial;
+  margin: 0px;
+  height: 1700px;
+  font-size: 14px;
+}
+
+.header {
+  height: 60%;
+  color: #ffffff;
+  background: url(images/bg.jpg) center;
+  background-size: cover;
+}
+
+.nav {
+  height: 4%;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.main {
+  height: 22%;
+}
+
+.jumbotron {
+  height: 30%;
+  color: #ffffff;
+  text-align: right;
+  background: url(images/jumbotron_bg.jpg) center;
+  background-size: cover;
+}
+
+.footer {
+  height: 4%;
+  color: #ffffff;
+  font-size: 12px;
+  background-color: #000000;
+}
+
+.container
+{
+  height: 100%;
+  width: 900px;
+  margin: 0px auto;
+}
+
+.header .container{
+  text-align: center;
+}
+
+.nav ul{
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  list-style-type: none;
+}
+
+.nav li{
+  display: inline-block;
+  padding: 26px 12px;
+  margin: 0px;
+}
+
+.nav li:hover{
+  background-color: #117cff;
+}
+
+h1
+{
+  margin: 0px;
+  padding-top: 2em;
+  font-size: 100px;
+  line-height: 0.8;
+  text-transform: uppercase;
+}
+
+.jumbotron h2{
+  padding-top: 180px;
+}
+
+p{
+  padding-top: 2em;
+}
+
+.cloud{
+  width: 270px;
+  display: inline-block;
+}
+
+.text{
+  width: 625px;
+  padding-top: 81px;
+  display: inline-block;
+}
+
+#mission {
+  padding-top: 75px;
+  font-size: 14px;
+  letter-spacing: 0.6em;
+  text-transform: uppercase;
+}
+
+.btn{
+  margin-top: 30px;
+  padding: 9px 30px;
+  color: #ffffff;
+  text-decoration: none;
+  background: #000000;
+  display: inline-block;
+}
+
+.jumbotron .btn{
+  background: #117cff;
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
